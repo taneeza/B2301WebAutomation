@@ -1,0 +1,28 @@
+2023-06-20 17:39:44.013 [main] INFO  com.izaanschool.heroku.LocatorTest - File Download
+2023-06-20 17:39:44.029 [main] INFO  com.izaanschool.heroku.LocatorTest - File Upload
+2023-06-20 17:39:44.045 [main] INFO  com.izaanschool.heroku.LocatorTest - Floating Menu
+2023-06-20 17:39:44.060 [main] INFO  com.izaanschool.heroku.LocatorTest - Forgot Password
+2023-06-20 17:39:44.060 [main] INFO  com.izaanschool.heroku.LocatorTest - Form Authentication
+2023-06-20 17:39:44.076 [main] INFO  com.izaanschool.heroku.LocatorTest - Frames
+2023-06-20 17:39:44.076 [main] INFO  com.izaanschool.heroku.LocatorTest - Geolocation
+2023-06-20 17:39:44.092 [main] INFO  com.izaanschool.heroku.LocatorTest - Horizontal Slider
+2023-06-20 17:39:44.108 [main] INFO  com.izaanschool.heroku.LocatorTest - Hovers
+2023-06-20 17:39:44.108 [main] INFO  com.izaanschool.heroku.LocatorTest - Infinite Scroll
+2023-06-20 17:39:44.123 [main] INFO  com.izaanschool.heroku.LocatorTest - Inputs
+2023-06-20 17:39:44.139 [main] INFO  com.izaanschool.heroku.LocatorTest - JQuery UI Menus
+2023-06-20 17:39:44.154 [main] INFO  com.izaanschool.heroku.LocatorTest - JavaScript Alerts
+2023-06-20 17:39:44.154 [main] INFO  com.izaanschool.heroku.LocatorTest - JavaScript onload event error
+2023-06-20 17:39:44.170 [main] INFO  com.izaanschool.heroku.LocatorTest - Key Presses
+2023-06-20 17:39:44.190 [main] INFO  com.izaanschool.heroku.LocatorTest - Large & Deep DOM
+2023-06-20 17:39:44.202 [main] INFO  com.izaanschool.heroku.LocatorTest - Multiple Windows
+2023-06-20 17:39:44.202 [main] INFO  com.izaanschool.heroku.LocatorTest - Nested Frames
+2023-06-20 17:39:44.217 [main] INFO  com.izaanschool.heroku.LocatorTest - Notification Messages
+2023-06-20 17:39:44.233 [main] INFO  com.izaanschool.heroku.LocatorTest - Redirect Link
+2023-06-20 17:39:44.249 [main] INFO  com.izaanschool.heroku.LocatorTest - Secure File Download
+2023-06-20 17:39:44.249 [main] INFO  com.izaanschool.heroku.LocatorTest - Shadow DOM
+2023-06-20 17:39:44.264 [main] INFO  com.izaanschool.heroku.LocatorTest - Shifting Content
+2023-06-20 17:39:44.280 [main] INFO  com.izaanschool.heroku.LocatorTest - Slow Resources
+2023-06-20 17:39:44.296 [main] INFO  com.izaanschool.heroku.LocatorTest - Sortable Data Tables
+2023-06-20 17:39:44.312 [main] INFO  com.izaanschool.heroku.LocatorTest - Status Codes
+2023-06-20 17:39:44.312 [main] INFO  com.izaanschool.heroku.LocatorTest - Typos
+2023-06-20 17:39:44.327 [main] INFO  com.izaanschool.heroku.LocatorTest - WYSIWYG Editor

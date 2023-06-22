@@ -1,0 +1,16 @@
+2023-06-20 17:39:43.825 [main] INFO  com.izaanschool.heroku.LocatorTest - A/B Testing
+2023-06-20 17:39:43.841 [main] INFO  com.izaanschool.heroku.LocatorTest - Add/Remove Elements
+2023-06-20 17:39:43.856 [main] INFO  com.izaanschool.heroku.LocatorTest - Basic Auth (user and pass: admin)
+2023-06-20 17:39:43.872 [main] INFO  com.izaanschool.heroku.LocatorTest - Broken Images
+2023-06-20 17:39:43.872 [main] INFO  com.izaanschool.heroku.LocatorTest - Challenging DOM
+2023-06-20 17:39:43.889 [main] INFO  com.izaanschool.heroku.LocatorTest - Checkboxes
+2023-06-20 17:39:43.904 [main] INFO  com.izaanschool.heroku.LocatorTest - Context Menu
+2023-06-20 17:39:43.919 [main] INFO  com.izaanschool.heroku.LocatorTest - Digest Authentication (user and pass: admin)
+2023-06-20 17:39:43.919 [main] INFO  com.izaanschool.heroku.LocatorTest - Disappearing Elements
+2023-06-20 17:39:43.935 [main] INFO  com.izaanschool.heroku.LocatorTest - Drag and Drop
+2023-06-20 17:39:43.950 [main] INFO  com.izaanschool.heroku.LocatorTest - Dropdown
+2023-06-20 17:39:43.966 [main] INFO  com.izaanschool.heroku.LocatorTest - Dynamic Content
+2023-06-20 17:39:43.966 [main] INFO  com.izaanschool.heroku.LocatorTest - Dynamic Controls
+2023-06-20 17:39:43.982 [main] INFO  com.izaanschool.heroku.LocatorTest - Dynamic Loading
+2023-06-20 17:39:43.998 [main] INFO  com.izaanschool.heroku.LocatorTest - Entry Ad
+2023-06-20 17:39:43.998 [main] INFO  com.izaanschool.heroku.LocatorTest - Exit Intent

@@ -1,0 +1,4 @@
+2023-06-21 23:48:19.045 [main] INFO  com.izaanschool.heroku.CheckBoxesPageTest - print the response code404
+2023-06-21 23:48:19.280 [main] INFO  com.izaanschool.heroku.CheckBoxesPageTest - print the response code404
+2023-06-21 23:48:19.535 [main] INFO  com.izaanschool.heroku.CheckBoxesPageTest - print the response code200
+2023-06-21 23:48:19.554 [main] INFO  com.izaanschool.heroku.CheckBoxesPageTest - the image is  not broken
