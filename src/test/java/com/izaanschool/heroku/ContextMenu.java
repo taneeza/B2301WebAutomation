@@ -19,17 +19,17 @@ import java.util.concurrent.TimeUnit;
 
 
 /** problem statement
- * we want to navigate to Drag And Drop Elements page from herokuapp page and will see if
- * the drag and drop action works porperly or not
+ * we want to navigate to context menu page page from herokuapp page and will see if
+ * we can make a right click on the box and make context menu visible.
  * to do so,
  * 1. we will navigate to that page
- * 2.we will drag element A and release it on element B.
- * 3. we will check if the A element has been moved to element B and vice versa.
+ * 2.we will right click on the box
+ * 3. and will verify that the context menu is visible.
 
  */
 
 public class ContextMenu {
-    public static Logger logger = LogManager.getLogger(CheckBoxesPageTest.class);
+    public static Logger logger = LogManager.getLogger(ContextMenu.class);
     WebDriver driver;
     String url = "http://the-internet.herokuapp.com/";
 

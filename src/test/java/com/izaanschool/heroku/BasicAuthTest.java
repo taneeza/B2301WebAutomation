@@ -14,14 +14,12 @@ import java.util.concurrent.TimeUnit;
 
 
 /** problem statement
- * we want to navigate to basic auth Elements page from herokuapp page and will see if the add
- * element buttonr working properly or not
- * to do so,
- * 1. we will navigate to that page
- * 2.we will add element
- * 3. we will check if the element has been added or not
- * 4. we will delete the element
- * 5. and then check if it was deleted or not.
+ * we want to navigate to basic auth Elements page from herokuapp page and
+ * will see if the basic auth page works or not.
+ * we will pass username and password
+ * and verify if we have be authorised and
+ * verify if we landed on the page or not by comparing the heading
+
  */
 
 

@@ -11,6 +11,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -57,15 +59,20 @@ public class EntryAdTest {
 
         //find the button that we have to click to see the pup-up ad
        // WebElement button= driver.findElement(By.xpath("//*[@id=\"restart-ad\"]"));
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
 
         //click the button
         //button.click();
 
-        // switch to alert
+        // switch to alert with webdriver wait
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
 
-        String alertMessage= driver.switchTo().alert().getText(); // capture alert message
+        // switch to alert without webdriver wait
+        //Alert alert = driver.switchTo().alert();
+
+        String alertMessage= alert.getText(); // capture alert message
 
         logger.info(alertMessage); // Print Alert Message
         Thread.sleep(2000);

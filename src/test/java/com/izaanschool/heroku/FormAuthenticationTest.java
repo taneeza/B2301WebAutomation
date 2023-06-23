@@ -15,6 +15,12 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
+/** problem statement
+ * we will navigate to the form authentication page
+ * we will pass username and password
+ * and see if I can login or not
+ */
+
 public class FormAuthenticationTest {
     public static Logger logger = LogManager.getLogger(FormAuthenticationTest.class);
     WebDriver driver;

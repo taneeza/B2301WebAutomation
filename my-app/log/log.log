@@ -1,2 +1,2 @@
-2023-06-22 12:16:35.209 [main] INFO  com.izaanschool.heroku.FormAuthenticationTest - You logged into a secure area!
-×
+2023-06-22 21:30:31.043 [main] INFO  com.izaanschool.heroku.BasicAuthTest - Horizontal Slider
+2023-06-22 21:30:31.052 [main] INFO  com.izaanschool.heroku.BasicAuthTest - test passed
