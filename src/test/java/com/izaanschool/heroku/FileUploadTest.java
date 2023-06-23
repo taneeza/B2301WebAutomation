@@ -59,12 +59,17 @@ public class FileUploadTest {
         logger.info("test passed");
 
         //find the upload button
-
         WebElement fileUpload =driver.findElement(By.xpath("//*[@id=\"file-upload\"]"));
+
+       //choose file from local my local machine
         File file = new File("wp3.jpg");
-        System.out.println(file.getAbsolutePath());
+        //System.out.println(file.getAbsolutePath());
         fileUpload.sendKeys(file.getAbsolutePath());
+
+        //find the click button and click
         driver.findElement(By.xpath("//*[@id=\"file-submit\"]")).click();
+
+        //assertion that download is completed
         String heading = driver.findElement(By.tagName("h3")).getText();
         logger.info(h3);
         String headingActual ="File Uploaded!";
