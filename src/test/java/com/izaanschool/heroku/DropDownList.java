@@ -26,10 +26,11 @@ import java.util.List;
  * 3. we will verify if option 1 was selected or not
 
  */
+// //https://www.guru99.com/select-option-dropdown-selenium-webdriver.html
 
 public class DropDownList {
 
-    public static Logger logger = LogManager.getLogger(CheckBoxesPageTest.class);
+    public static Logger logger = LogManager.getLogger(DropDownList.class);
     WebDriver driver;
     String url = "http://the-internet.herokuapp.com/";
 
@@ -57,7 +58,6 @@ public class DropDownList {
         logger.info("test passed");
 
 
-        //https://www.guru99.com/select-option-dropdown-selenium-webdriver.html
         //Declare the drop-down element as an instance of the Select class.
         Select drpDownList = new Select(driver.findElement(By.id("dropdown")));
 
@@ -75,10 +75,10 @@ public class DropDownList {
         logger.info("test passed");
 
     }
-  /*  @After
+    @After
     public void addRemoveTest() {
         driver.close();
 
-    }*/
+    }
 
 }

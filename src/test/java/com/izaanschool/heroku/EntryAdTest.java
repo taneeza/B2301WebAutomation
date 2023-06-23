@@ -17,17 +17,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 /** problem statement
- * we want to navigate to file download Elements page from herokuapp page and
- * will see if we can download  a file to our local machine
- * to do so,
- * 1. we will navigate to that page
- * 2.we will choose a file from the page and download to my local machine
- * 3. we will check if the file has been downloaded or not
+ * we want to navigate to entry ad Elements page from herokuapp page and
+ * will see if we can see the ad window and close the popup ad  window
+
 
  */
 
 public class EntryAdTest {
-    public static Logger logger = LogManager.getLogger(DisappearingElelementTest.class);
+    public static Logger logger = LogManager.getLogger(EntryAdTest.class);
     WebDriver driver;
     String url = "http://the-internet.herokuapp.com/";
 

@@ -1,2 +1,3 @@
-2023-06-22 22:10:15.168 [main] INFO  com.izaanschool.heroku.FileUploadTest - File Uploader
-2023-06-22 22:10:15.177 [main] INFO  com.izaanschool.heroku.FileUploadTest - test passed
+2023-06-23 11:34:46.142 [main] INFO  com.izaanschool.heroku.HoversTest - Hovers
+2023-06-23 11:34:46.171 [main] INFO  com.izaanschool.heroku.HoversTest - test passed
+2023-06-23 11:34:46.730 [main] INFO  com.izaanschool.heroku.HoversTest - test passed

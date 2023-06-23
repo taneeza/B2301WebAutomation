@@ -26,7 +26,7 @@ import java.util.List;
  */
 
 public class AddRemoveElementsTest {
-    public static Logger logger = LogManager.getLogger(CheckBoxesPageTest.class);
+    public static Logger logger = LogManager.getLogger(AddRemoveElementsTest.class);
     WebDriver driver;
     String url = "http://the-internet.herokuapp.com/";
 
@@ -77,11 +77,11 @@ public class AddRemoveElementsTest {
         }
 
     }
-    /*@After
+    @After
     public void addRemoveTest() {
         driver.close();
 
-    }*/
+    }
 }
 
 
