@@ -18,10 +18,10 @@ import java.util.List;
 
 /**
  * Problem Statement
- * I want to go to Heroku app website and verify the checkbox page check boxes are
+ * I want to go to Heroku app website and verify the broken image page is
  * working properly.
- * 1. So I want to check the box and verify that box is checked
- * 2. I also want to uncheck a box and verify the box is unchecked
+ * 1. So I want to the broken image page and find out all the broken image
+ * 2.   //https://www.youtube.com/watch?v=8Gp9gl3CqCg
  * */
 
 public class BrokenImageTest {
@@ -47,7 +47,7 @@ public class BrokenImageTest {
             //go to broken image page by clicking checkbox hyperlink from the homepage.
             driver.findElement(By.linkText("Broken Images")).click();
 
-            //verify if we landed on checkbox page or not by comparing the heading
+            //verify if we landed on broken image page or not by comparing the heading
             String h3 = driver.findElement(By.tagName("h3")).getText();
             logger.info(h3);
             String h3actual = "Broken Images";
@@ -55,9 +55,16 @@ public class BrokenImageTest {
             logger.info("test passed");
 
 
-            //https://www.youtube.com/watch?v=8Gp9gl3CqCg
+
+
+            //list all the images
             List<WebElement> imgList= driver.findElements(By.tagName("img"));
             logger.info(imgList.size());
+
+
+
+            //find out the broken image by
+            // getting the response code and image width
 
           for(int i=0;i<imgList.size();i++){
               Response response= RestAssured.given().contentType("application/json")
@@ -75,8 +82,7 @@ public class BrokenImageTest {
 
           }
 
-
-            }
+        }
 
     @After
     public void cleanup(){

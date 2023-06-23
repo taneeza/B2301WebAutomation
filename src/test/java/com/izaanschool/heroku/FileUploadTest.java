@@ -78,9 +78,9 @@ public class FileUploadTest {
 
 
     }
-    @After
+    /*@After
     public void cleanup(){
         driver.close();
-    }
+    }*/
 
 }

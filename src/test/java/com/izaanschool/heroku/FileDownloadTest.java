@@ -54,7 +54,7 @@ public class FileDownloadTest {
         Assert.assertEquals(h3actual, h3);
         logger.info("test passed");
 
-        //find the upload button
+        //find the file to download and click
 
         WebElement fileDownload =driver.findElement(By.xpath("//*[@id=\"content\"]/div/a[7]"));
        fileDownload.click();
