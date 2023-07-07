@@ -69,7 +69,7 @@ public class HoversTest {
         WebElement ele2=driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[1]/div/a"));
         ele2.click();
 
-       // Assert tha we landed on the next page
+       // Assert that we landed on the next page
        boolean actualStatus= driver.findElement(By.xpath("/html/body/h1")).isDisplayed();
         Assert.assertEquals(true,actualStatus);
 

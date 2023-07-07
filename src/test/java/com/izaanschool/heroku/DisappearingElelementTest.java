@@ -19,8 +19,8 @@ import java.util.concurrent.TimeUnit;
  * will see if the buttons are working or not.
  * to do so,
  * 1. we will navigate to that page
- * 2. click the buttons.
- * verify if they are working or not.
+ * 2. click the home button.
+ * verify if it is taking me to the homepage or not.
 
  */
 

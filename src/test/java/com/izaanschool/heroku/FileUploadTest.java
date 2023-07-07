@@ -69,7 +69,7 @@ public class FileUploadTest {
         //find the click button and click
         driver.findElement(By.xpath("//*[@id=\"file-submit\"]")).click();
 
-        //assertion that download is completed
+        //assertion that upload is completed
         String heading = driver.findElement(By.tagName("h3")).getText();
         logger.info(h3);
         String headingActual ="File Uploaded!";

@@ -1,0 +1,4 @@
+2023-07-06 21:51:26.388 [main] INFO  com.izaanschool.heroku.DynamicControlTest - Dynamic Controls
+2023-07-06 21:51:26.397 [main] INFO  com.izaanschool.heroku.DynamicControlTest - test passed
+2023-07-06 21:51:26.416 [main] INFO  com.izaanschool.heroku.DynamicControlTest - checkbox is present
+2023-07-06 21:51:26.438 [main] INFO  com.izaanschool.heroku.DynamicControlTest - buttonRemove

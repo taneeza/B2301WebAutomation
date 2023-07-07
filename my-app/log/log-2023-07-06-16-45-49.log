@@ -1,0 +1,6 @@
+2023-07-06 16:45:49.152 [main] INFO  com.izaanschool.heroku.DynamicContentTest - Dynamic Content
+2023-07-06 16:45:49.167 [main] INFO  com.izaanschool.heroku.DynamicContentTest - test passed
+2023-07-06 16:45:49.211 [main] INFO  com.izaanschool.heroku.DynamicContentTest - http://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg
+2023-07-06 16:45:49.234 [main] INFO  com.izaanschool.heroku.DynamicContentTest - Tempora sint rerum eligendi molestias inventore quibusdam occaecati voluptas at blanditiis maiores eveniet officia placeat aut sed quia molestiae eos cupiditate eos repellat ut et non amet omnis dolorem hic omnis.
+2023-07-06 16:45:49.834 [main] INFO  com.izaanschool.heroku.DynamicContentTest - http://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg
+2023-07-06 16:45:49.871 [main] INFO  com.izaanschool.heroku.DynamicContentTest - Tempora sint rerum eligendi molestias inventore quibusdam occaecati voluptas at blanditiis maiores eveniet officia placeat aut sed quia molestiae eos cupiditate eos repellat ut et non amet omnis dolorem hic omnis.

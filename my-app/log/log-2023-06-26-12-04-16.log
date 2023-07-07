@@ -1,0 +1,4 @@
+2023-06-26 12:04:16.082 [main] INFO  com.izaanschool.heroku.HorizontalSliderTest - Frames
+2023-06-26 12:04:16.090 [main] INFO  com.izaanschool.heroku.HorizontalSliderTest - test passed
+2023-06-26 12:04:16.666 [main] INFO  com.izaanschool.heroku.HorizontalSliderTest - An iFrame containing the TinyMCE WYSIWYG Editor
+2023-06-26 12:04:16.666 [main] INFO  com.izaanschool.heroku.HorizontalSliderTest - test passed

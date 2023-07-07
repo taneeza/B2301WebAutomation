@@ -75,10 +75,10 @@ public class DropDownList {
         logger.info("test passed");
 
     }
-    @After
+   @After
     public void addRemoveTest() {
         driver.close();
 
-    }
+   }
 
 }

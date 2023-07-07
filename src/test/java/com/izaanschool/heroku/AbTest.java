@@ -21,7 +21,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class AbTest {
-      public static Logger logger = LogManager.getLogger(CheckBoxesPageTest.class);
+      public static Logger logger = LogManager.getLogger(AbTest.class);
       WebDriver driver;
       String url = "http://the-internet.herokuapp.com/";
 

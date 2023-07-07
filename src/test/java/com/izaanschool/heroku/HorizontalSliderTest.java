@@ -92,15 +92,15 @@ public class HorizontalSliderTest {
         WebElement output = driver.findElement(By.id("range"));
 
         Actions act = new Actions (driver);
-        act.dragAndDropBy(slider, 4, 0).perform();
+        act.dragAndDropBy(slider, 50, 0).perform();
 
         System.out.println("What Is The Output After Dragging Right? " + output.getText());
     }
-    @After
+   /* @After
     public void cleanup(){
 
         driver.close();
-    }
+    }*/
 
 
 }

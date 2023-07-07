@@ -51,10 +51,10 @@ public class ContextMenu {
         driver.findElement(By.linkText("Context Menu")).click();
 
         //verify if we landed on the page or not by comparing the heading
-        String h3 = driver.findElement(By.tagName("h3")).getText();
-        logger.info(h3);
-        String h3actual = "Context Menu";
-        Assert.assertEquals(h3actual, h3);
+        String h3actual = driver.findElement(By.tagName("h3")).getText();
+        logger.info(h3actual);
+        String h3expected = "Context Menu";
+        Assert.assertEquals(h3expected, h3actual);
         logger.info("test passed");
 
         //https://www.guru99.com/double-click-and-right-click-selenium.html

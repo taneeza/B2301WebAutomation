@@ -1,0 +1,3 @@
+2023-07-06 16:27:02.287 [main] INFO  com.izaanschool.heroku.DynamicContentTest - Dynamic Content
+2023-07-06 16:27:02.297 [main] INFO  com.izaanschool.heroku.DynamicContentTest - test passed
+2023-07-06 16:27:02.355 [main] INFO  com.izaanschool.heroku.DynamicContentTest - http://the-internet.herokuapp.com/img/avatars/Original-Facebook-Geek-Profile-Avatar-7.jpg

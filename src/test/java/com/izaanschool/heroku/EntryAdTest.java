@@ -54,33 +54,31 @@ public class EntryAdTest {
         logger.info("test passed");
 
 
-        //find the button that we have to click to see the pup-up ad
-       // WebElement button= driver.findElement(By.xpath("//*[@id=\"restart-ad\"]"));
-        //Thread.sleep(5000);
 
-        //click the button
-        //button.click();
+        // ********* CLICK HERE verifying **************//
+        driver.findElement(By.linkText("click here")).click();
+       // String closeKey = driver.findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[3]/p")).getText();
+        Thread.sleep(5000);
+       // logger.info(closeKey);
 
-        // switch to alert with webdriver wait
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.alertIsPresent());
-        Alert alert = driver.switchTo().alert();
+        //find modal window and verify
+        String modalWindow = driver.findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[1]/h3")).getText();
+        Assert.assertEquals("THIS IS A MODAL WINDOW",modalWindow);
+        Thread.sleep(3000);
 
-        // switch to alert without webdriver wait
-        //Alert alert = driver.switchTo().alert();
-
-        String alertMessage= alert.getText(); // capture alert message
-
-        logger.info(alertMessage); // Print Alert Message
-        Thread.sleep(2000);
-        alert.accept();
-
+       //click the close key
+        driver.findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[3]/p")).click();
+        logger.info("close Button clicked");
     }
+
     @After
-    public void cleanup(){
+    public void cleanUp() {
         driver.close();
+
+    }
     }
 
 
 
-}
+
+
